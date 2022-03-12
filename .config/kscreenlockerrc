@@ -1,0 +1,9 @@
+[$Version]
+update_info=kscreenlocker.upd:0.1-autolock
+
+[Daemon]
+Autolock=true
+
+[Greeter][Wallpaper][org.kde.image][General]
+Image=/usr/share/wallpapers/Autumn/
+SlidePaths=/usr/share/plasma/wallpapers,/usr/share/wallpapers
