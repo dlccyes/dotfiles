@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =6
+let g:netrw_dirhist_6='/media/dlcc/Windows/github/blog'
+let g:netrw_dirhist_5='/media/dlcc/Windows/github/playlastify/static'
+let g:netrw_dirhist_4='/home/dlcc/.pyenv'
+let g:netrw_dirhist_3='/media/dlcc/Windows/github/codefiles/.git'
+let g:netrw_dirhist_2='/home/dlcc/.vim'
+let g:netrw_dirhist_1='/home/dlcc/.config/touchegg'
