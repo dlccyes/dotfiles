@@ -107,18 +107,18 @@ if [ "$UID" -eq "$ROOT_UID" ]; then
 
   prompt -i "\n finalizing your installation .......\n \n."
   # Update grub config
-  #echo -e "Updating grub config..."
-  #if has_command update-grub; then
-  #  update-grub
-  #elif has_command grub-mkconfig; then
-  #  grub-mkconfig -o /boot/grub/grub.cfg
-  #elif has_command grub2-mkconfig; then
-  #  if has_command zypper; then
-  #    grub2-mkconfig -o /boot/grub2/grub.cfg
-  #  elif has_command dnf; then
-  #    grub2-mkconfig -o /boot/efi/EFI/fedora/grub.cfg
-  #  fi
-  #fi
+  echo -e "Updating grub config..."
+  if has_command update-grub; then
+    update-grub
+  elif has_command grub-mkconfig; then
+    grub-mkconfig -o /boot/grub/grub.cfg
+  elif has_command grub2-mkconfig; then
+    if has_command zypper; then
+      grub2-mkconfig -o /boot/grub2/grub.cfg
+    elif has_command dnf; then
+      grub2-mkconfig -o /boot/efi/EFI/fedora/grub.cfg
+    fi
+  fi
 
   # Success message
   prompt -s "\n\t          ****************************\n\t          *  successfully installed  *\n\t          ****************************\n"

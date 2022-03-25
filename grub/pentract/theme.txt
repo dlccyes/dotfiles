@@ -1,5 +1,5 @@
 
-desktop-image: "nordic.jpg"
+desktop-image: "space.jpg"
 
 title-text:" "
 message-color: "#757575"
@@ -10,7 +10,7 @@ terminal-height: "100%"
 terminal-border: "0"
 
 +label{
-text="UWU"
+text="I use Arch btw"
 font = "Poppins Regular 48"
 color="#eeeeee"
 left = 50%-200
