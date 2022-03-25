@@ -1,0 +1,15 @@
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[core]
+	safecrlf = false
+	autocrlf = false
+[user]
+	email = derricken968@gmail.com
+	name = dlccyes
+[diff]
+	tool = vimdiff
+[pull]
+	rebase = false
