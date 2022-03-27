@@ -9,8 +9,8 @@
 #
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
-#exec_always "feh --bg-fill /home/dlcc/Pictures/wallpapers/astro-space-blue.png"
-exec_always "feh --bg-fill /home/dlcc/Pictures/wallpapers/astro-jelly-pp.png"
+exec_always "feh --bg-fill /home/dlcc/Pictures/wallpapers/astro-space-blue.png"
+#exec_always "feh --bg-fill /home/dlcc/Pictures/wallpapers/astro-jelly-pp.png"
 
 set $mod Mod1
 
@@ -190,7 +190,9 @@ mode "resize" {
 }
 
 # Start i3bar to display a workspace bar (plus the system information i3status
+#exec --no-startup-id polybar
+exec_always polybar
 # finds out, if available)
 bar {
-        status_command i3status
+        #status_command i3status
 }
