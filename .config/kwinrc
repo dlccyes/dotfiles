@@ -26,18 +26,33 @@ BorderActivate=1
 [Effect-Slide]
 Duration=240
 
-[ElectricBorders]
-BottomRight=ShowDesktop
+[Effect-Wobbly]
+Drag=92
+MoveFactor=20
+Stiffness=3
+WobblynessLevel=3
 
 [NightColor]
 Active=true
+LatitudeAuto=25.0504
+LongitudeAuto=121.5324
 Mode=Constant
 NightTemperature=4900
+
+[Plugins]
+blurEnabled=true
+contrastEnabled=true
+minimizeallEnabled=true
+overviewEnabled=true
+slidebackEnabled=true
+wobblywindowsEnabled=true
+
+[Script-minimizeall]
+BorderActivate=3
 
 [TabBox]
 BorderActivate=9
 LayoutName=thumbnail_grid
-ShowDesktopMode=1
 TouchBorderActivate=9
 TouchBorderAlternativeActivate=9
 
@@ -45,5 +60,5 @@ TouchBorderAlternativeActivate=9
 ElectricBorders=2
 
 [org.kde.kdecoration2]
-library=org.kde.kwin.aurorae
-theme=__aurorae__svg__Nordic
+library=org.kde.breeze
+theme=Breeze
