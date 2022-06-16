@@ -1,0 +1,277 @@
+{
+  "Exclusions": [
+    "https://www.photopea.com/"
+  ],
+  "Gestures": [
+    {
+      "pattern": [
+        [
+          -37,
+          -25
+        ],
+        [
+          -88,
+          -11
+        ],
+        [
+          -50,
+          17
+        ],
+        [
+          -63,
+          62
+        ],
+        [
+          -22,
+          68
+        ],
+        [
+          4,
+          50
+        ],
+        [
+          33,
+          49
+        ],
+        [
+          84,
+          43
+        ],
+        [
+          105,
+          -4
+        ],
+        [
+          46,
+          -24
+        ],
+        [
+          22,
+          -27
+        ],
+        [
+          8,
+          -23
+        ],
+        [
+          -4,
+          -44
+        ],
+        [
+          -16,
+          -17
+        ],
+        [
+          -56,
+          -17
+        ],
+        [
+          -77,
+          8
+        ]
+      ],
+      "command": {
+        "name": "OpenAddonSettings"
+      }
+    },
+    {
+      "pattern": [
+        [
+          -1,
+          -1
+        ]
+      ],
+      "command": {
+        "name": "FocusLeftTab",
+        "settings": {
+          "cycling": true,
+          "excludeDiscarded": false
+        }
+      }
+    },
+    {
+      "pattern": [
+        [
+          1,
+          -1
+        ]
+      ],
+      "command": {
+        "name": "FocusRightTab",
+        "settings": {
+          "cycling": true,
+          "excludeDiscarded": false
+        }
+      }
+    },
+    {
+      "pattern": [
+        [
+          0,
+          1
+        ]
+      ],
+      "command": {
+        "name": "ScrollBottom",
+        "settings": {
+          "duration": 100
+        }
+      }
+    },
+    {
+      "pattern": [
+        [
+          0,
+          -1
+        ]
+      ],
+      "command": {
+        "name": "ScrollTop",
+        "settings": {
+          "duration": 100
+        }
+      }
+    },
+    {
+      "pattern": [
+        [
+          1,
+          0
+        ]
+      ],
+      "command": {
+        "name": "PageForth"
+      }
+    },
+    {
+      "pattern": [
+        [
+          -1,
+          0
+        ]
+      ],
+      "command": {
+        "name": "PageBack"
+      }
+    },
+    {
+      "pattern": [
+        [
+          -21,
+          -161
+        ],
+        [
+          25,
+          -129
+        ],
+        [
+          31,
+          168
+        ],
+        [
+          -22,
+          147
+        ]
+      ],
+      "command": {
+        "name": "ReloadTab",
+        "settings": {
+          "cache": true
+        }
+      }
+    },
+    {
+      "pattern": [
+        [
+          92,
+          205
+        ],
+        [
+          10,
+          -6
+        ],
+        [
+          130,
+          -186
+        ]
+      ],
+      "command": {
+        "name": "CloseTab",
+        "settings": {
+          "nextFocus": "default",
+          "closePinned": true
+        }
+      }
+    },
+    {
+      "pattern": [
+        [
+          45,
+          -48
+        ],
+        [
+          58,
+          -27
+        ],
+        [
+          11,
+          2
+        ],
+        [
+          27,
+          64
+        ],
+        [
+          51,
+          60
+        ],
+        [
+          9,
+          -5
+        ],
+        [
+          64,
+          -112
+        ],
+        [
+          79,
+          -87
+        ]
+      ],
+      "command": {
+        "name": "NewTab",
+        "settings": {
+          "position": "default",
+          "focus": true
+        }
+      }
+    }
+  ],
+  "Settings": {
+    "Gesture": {
+      "Timeout": {
+        "active": true,
+        "duration": 0.5
+      },
+      "Trace": {
+        "display": false
+      },
+      "Command": {
+        "display": false
+      }
+    },
+    "Rocker": {
+      "active": true
+    },
+    "Wheel": {
+      "active": true,
+      "mouseButton": "2",
+      "wheelUp": {
+        "name": "PageForth"
+      },
+      "wheelDown": {
+        "name": "PageBack"
+      }
+    }
+  }
+}
